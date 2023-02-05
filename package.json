@@ -1,0 +1,23 @@
+{
+  "name": "drone-delivery-service",
+  "version": "1.0.0",
+  "description": "Drones trips scheduler",
+  "engines": {
+    "node": ">=18.13.0"
+  },
+  "main": "src/app/main.js",
+  "author": "Guy Livne",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polad/drone-delivery.git"
+  },
+  "scripts": {
+    "start": "node ./src/app/main.js",
+    "test": "node_modules/.bin/mocha --require ./src/tests/globals.js --recursive ./src/tests/unit"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
