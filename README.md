@@ -1,10 +1,10 @@
 # Drone Delivery Service
 
-###Description
+### Description
 
 This tool is an implementation of an exercise of a scheduler for drones to make the most efficient delivery trips to predefined locations.
 
-###Quick Start
+### Quick Start
 
 To start script:
 ```
